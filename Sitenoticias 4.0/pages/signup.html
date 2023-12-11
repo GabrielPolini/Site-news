@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site notícias</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Gabriel dos Santos Polini">
+        <meta name="description" content="Site de noticias atualizadas">
+        <meta name="keywords" content="Noticias, atualizadas">
+    </head>
+    <body>
+        <header id="Cadastro">
+          <h1>Cadastro</h1> 
+        </header>
+        <nav>
+            <ul>
+                <li><a href= "../index.html">Principal</a></li>
+            </ul>
+            </nav>
+            <div> <!-- Inicio conteúdo-->
+                <h2>Cadastre-se</h2>
+                <form name="frmcaduser" action="#" method="POST">
+                    <label>Nome:</label>
+                    <input type="text" name="txtnome" maxlength="50">
+                    <br>
+                    <label>E-mail</label>
+                    <input type="text" name="txtemail" maxlenght="77">
+                    <br>
+                    <label>Usuário</label>
+                    <input type="text" name="txtusuario" maxlenght="10">
+                    <br>
+                    <label>Senha</label>
+                    <input type= "password" name="txtsenha" minlength="8" maxlength="20">
+                    <br>
+                    <label>Estado</label>
+                    <select name="selestado">
+                        <option value=""> Selecione:</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="pr">Paraná</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                    </select>
+                    <br>
+                    <label>Cidade:</label>
+                    <input type="text" name="txtcidade" maxlength="120" placeholder="Ex: Joinville">
+                    <br>
+                    <label>Sexo:</label>
+                    <input type="radio" name="rdsexo">Masculino
+                    <input type="radio" name="rdsexo">Feminino
+                    <br>
+                    <label>Descrição</label>
+                    <textarea name="txadescricao" placeholder="Digite aqui suas preferencias de notícias..." ></textarea>
+                    <br>
+                    <label>Termos:</label>
+                    <input type="checkbox" name="chktermos" > Li e aceito
+                </form>
+            </div> <!--Fim do conteudo--> 
+            <footer>
+                <p> 
+                    Direitos reservados Gabriel Polini - 2021
+                    <br>
+                    <a href= "#cabecalho">Topo</a>
+                </p>
+            </footer>    
+            </div>
+        </body>
+</html>        
